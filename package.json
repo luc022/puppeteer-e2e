@@ -1,0 +1,23 @@
+{
+	"name": "pptr-project",
+	"version": "1.0.0",
+	"description": "automated software testing with puppeteer",
+	"main": "index.js",
+	"scripts": {
+		"test:device": " npx mocha --timeout=30000 ./tests/device.test.js"
+	},
+	"keywords": [
+		"puppeteer",
+		"mocha",
+		"chai",
+		"automation"
+	],
+	"author": "luc022",
+	"license": "ISC",
+	"dependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^8.1.1",
+		"prettier": "^2.0.5",
+		"puppeteer": "^5.2.1"
+	}
+}
