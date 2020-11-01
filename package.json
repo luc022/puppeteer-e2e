@@ -4,7 +4,8 @@
 	"description": "automated software testing with puppeteer",
 	"main": "index.js",
 	"scripts": {
-		"test:device": " npx mocha --timeout=30000 ./tests/device.test.js"
+		
+		"test:e2e": " npx mocha --timeout=200000 ./tests/e2e/*.test.js"
 	},
 	"keywords": [
 		"puppeteer",

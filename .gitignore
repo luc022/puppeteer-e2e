@@ -1,3 +1,5 @@
 node_modules/
+lib/
 tests/example.test.js
 tests/example2.test.js
+tests/device.test.js
