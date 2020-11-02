@@ -1,7 +1,7 @@
 ## puppeteer-e2e
 Example Puppeteer e2e test suite on demo bank website (http://zero.webappsecurity.com/)
 
--Test suite contains 
+### Test suite contains:
 
 -login to bank account
 
